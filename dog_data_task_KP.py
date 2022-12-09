@@ -37,7 +37,7 @@ b) Znajdź najpopularniejszą rasę psa dla każdego przedziały wiekowego (kluc
     a wartością najpopularniejsza rasa psa (dla danego przedziału).
 """
 print('\n######################## Zadanie b ############################\n')
-"""
+
 age = []  #utworzenie listy unikalnych przedziałów wieku (analogicznie do zadania a)
 for n in range(len(dog_data)):
     if dog_data[n]['OwnerAge'] not in age:  #sprawdza, czy dany gatunek nie znajduje się już w liście
@@ -60,7 +60,7 @@ for i in age: #pętla dla wieku 'i
     the_most_popular_breed[i] = gatunek_max  #dodanie do słownika klucza - wieku i gatunku, który dla tego wieku wystąpił najczęściej
 
 print(the_most_popular_breed)
-"""
+
 
 """
 c) Biblioteka statistics (https://docs.python.org/3/library/statistics.html#) pozwala na

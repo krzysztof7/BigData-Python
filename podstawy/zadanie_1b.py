@@ -9,3 +9,5 @@ a = "12"
 b = "35.5"
 c = True
 
+wynik = int(a) + float(b) + int(c)
+print(suma)
